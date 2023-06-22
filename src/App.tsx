@@ -3,7 +3,7 @@ import ListGroup from './components/ListGroup'
 
 function App() {
     return <div> <ListGroup />
-        <button type="button" class="btn btn-primary" onClick={CallAPI}>Primary1</button>
+        <button type="button" className="btn btn-primary" onClick={CallAPI}>Primary1</button>
     </div>;
 }
 function CallAPI() {
